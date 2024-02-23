@@ -1,10 +1,10 @@
-import './Home.css';
+import styles from './Home.module.css';
 
 function Home() {
   return (
     <>
-      <div >
-        <img src="src/assets/VaiTudoAbaixo-LOGO2.png" alt="Logo" width="35%" />
+      <div className={ styles.container }>
+        <img className= { styles.logo } src="src/assets/VaiTudoAbaixo-LOGO2.png" alt="Logo"/>
       </div>
     </>
   )
