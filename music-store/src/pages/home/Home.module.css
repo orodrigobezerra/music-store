@@ -1,0 +1,28 @@
+:root {
+  --background: lightgrey;
+}
+
+* {
+  /* RESET */
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1rem; /* 16px */
+}
+
+body {
+  background-color: var(--background);
+}
+
+.container { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 50%;
+  opacity: 0.1;
+}
