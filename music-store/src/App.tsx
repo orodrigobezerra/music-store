@@ -6,9 +6,9 @@ import { Layout } from './components';
 function App() {
   return (
     <Routes>
-      <Route path="/" element= { <Layout /> }>
-        <Route index element={ <SoonPage /> } />
-        <Route path="home" element={ <Home /> } />
+      <Route path="/" element={ <SoonPage /> } />
+      <Route path="/home" element= { <Layout /> }>
+        <Route index element={ <Home /> } />
       </Route>
     </Routes>
   )

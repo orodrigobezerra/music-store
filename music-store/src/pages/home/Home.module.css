@@ -13,6 +13,7 @@
 
 body {
   background-color: var(--background);
+  color: black;
 }
 
 .container { 
@@ -23,6 +24,48 @@ body {
 }
 
 .logo {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 50%;
-  opacity: 0.1;
+  opacity: 0.05;
 }
+
+.headcontainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 1.5rem 0.5rem;
+  width: 100vw;
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headimg {
+  display: flex;
+  width: 10%;
+}
+
+.navcontainer h3 ul li {
+  display: flex;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 1%;
+  left: 0;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  background-size: contain;
+}
+
+.menuigm {
+  width: 10%;
+}
+
