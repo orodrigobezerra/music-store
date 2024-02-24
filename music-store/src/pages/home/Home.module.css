@@ -8,7 +8,7 @@
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
-  font-size: 1rem; /* 16px */
+  font-size: 1rem;
 }
 
 body {
@@ -38,34 +38,56 @@ body {
   top: 0;
   left: 0;
   padding: 1.5rem 0.5rem;
-  width: 100vw;
   background-color: darkblue;
   color: white;
   display: flex;
   justify-content: space-between;
+  width: 100vw;
+  text-decoration: none;
+  list-style-type: none;
+  align-items: center;
+}
+
+.headcontainer span {
+  margin-right: 2rem;
 }
 
 .headimg {
   display: flex;
-  width: 10%;
-}
-
-.navcontainer h3 ul li {
-  display: flex;
-  text-decoration: none;
-  list-style-type: none;
-  padding: 1%;
-  left: 0;
+  width: 5rem;
 }
 
 .menu {
   display: flex;
-  padding: 0;
-  margin: 0;
+  flex-direction: column;
   background-size: contain;
+  margin-left: 2rem;
+  width: 5rem;
 }
 
-.menuigm {
-  width: 10%;
+.navcontainer {
+  display: block;
+  position: absolute;
+  width: 20vw 20vh;
+  background-color: darkblue;
+  left: 0;
+  padding-bottom: 2rem;
+}
+
+.navcontainer li {
+  text-decoration: none;
+  list-style-type: none;
+  padding-top: 0.5rem;
+}
+
+.navcontainer h3 {
+  text-decoration: none;
+  list-style-type: none;
+  margin-top: 1.5rem;
+}
+
+.navcontainer img {
+  width: 20vw;
+  padding: 0.5rem 1.5rem;
 }
 

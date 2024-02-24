@@ -17,16 +17,9 @@ function Layout() {
   return (   
     <>
       <header className={ styles.headcontainer }>
-        <div className="menu" onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
+        <div className={ styles.menu } onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
           {hovered ? (
             <>
-              { <img src="src/assets/VaiTudoAbaixo-LOGO-WTEXT.png" width="25%"/> }
-              <img 
-                className={ styles.headimg }
-                src="src/assets/outra-imagem.png"
-                alt=""
-              />
-              {/* Renderizar o menu aqui */}
               <Menu />
             </>
           ) : (

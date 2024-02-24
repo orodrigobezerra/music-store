@@ -4,6 +4,7 @@ function Menu() {
   return (
     <>
       <nav className={ styles.navcontainer }>
+      { <img src="src/assets/VaiTudoAbaixo-LOGO-WTEXT.png"/> }
         <h3>Users</h3>
           <ul >
             <li><a href="" target="_self">Users List</a></li>
@@ -11,7 +12,6 @@ function Menu() {
             <li><a href="" target="_self">Update User</a></li>
             <li><a href="" target="_self">Delete User</a></li>
           </ul>
-        <br />
         <h3 >Articles</h3>
           <ul>
             <li><a href="" target="_self">Articles List</a></li>
