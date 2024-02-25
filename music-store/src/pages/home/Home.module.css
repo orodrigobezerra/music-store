@@ -43,6 +43,7 @@ body {
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  height: 5rem;
   text-decoration: none;
   list-style-type: none;
   align-items: center;
@@ -55,6 +56,7 @@ body {
 .headimg {
   display: flex;
   width: 5rem;
+  padding: 0;
 }
 
 .menu {
@@ -68,7 +70,7 @@ body {
 .navcontainer {
   display: block;
   position: absolute;
-  width: 20vw 20vh;
+  width: 15rem;
   background-color: darkblue;
   left: 0;
   padding-bottom: 2rem;
@@ -87,7 +89,7 @@ body {
 }
 
 .navcontainer img {
-  width: 20vw;
+  width: 10rem;
   padding: 0.5rem 1.5rem;
 }
 

@@ -1,2 +1,2 @@
-export { default as SoonPage } from './soon-page/SoonPage';
 export { default as Home } from './home/Home';
+export { default as ArticlesList } from './articlesList/ArticlesList';
