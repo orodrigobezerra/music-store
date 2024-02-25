@@ -93,3 +93,32 @@ body {
   padding: 0.5rem 1.5rem;
 }
 
+.tableTitle {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.articlesTable {
+  background-color: white;
+}
+
+.tableHeader {
+  background-color: darkblue;
+  color: white;
+  font-weight: bold;
+}
+
+.tableHeaderCell,
+.tableCell {
+  padding: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.tableImage {
+  display: block;
+  height: auto;
+}
+
+
+

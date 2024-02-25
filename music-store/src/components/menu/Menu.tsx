@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from '../../pages/home/Home.module.css'
 
 function Menu() {
@@ -7,18 +8,18 @@ function Menu() {
       { <img src="src/assets/VaiTudoAbaixo-LOGO-WTEXT.png"/> }
         <h3>Users</h3>
           <ul >
-            <li><a href="" target="_self">Users List</a></li>
-            <li><a href="" target="_self">Register User</a></li>
-            <li><a href="" target="_self">Update User</a></li>
-            <li><a href="" target="_self">Delete User</a></li>
+            <li><Link to="" target="_self">Users List</Link></li>
+            <li><Link to="" target="_self">Register User</Link></li>
+            <li><Link to="" target="_self">Update User</Link></li>
+            <li><Link to="" target="_self">Delete User</Link></li>
           </ul>
         <h3 >Articles</h3>
           <ul>
-            <li><a href="" target="_self">Articles List</a></li>
-            <li><a href="" target="_self">Add Article</a></li>
-            <li><a href="" target="_self">Search Article</a></li>
-            <li><a href="" target="_self">Update Article</a></li>
-            <li><a href="" target="_self">Delete Article</a></li>
+            <li><Link to="/articles-list" target="_self">Articles List</Link></li>
+            <li><Link to="" target="_self">Add Article</Link></li>
+            <li><Link to="" target="_self">Search Article</Link></li>
+            <li><Link to="" target="_self">Update Article</Link></li>
+            <li><Link to="" target="_self">Delete Article</Link></li>
           </ul>
       </nav>
     </>
